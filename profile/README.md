@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/cyber-header.svg" width="100%" alt="SEMENTIA — cyberpunk header" />
+  <img src="https://raw.githubusercontent.com/sementia/.github/main/profile/assets/cyber-header.svg" width="100%" alt="SEMENTIA — cyberpunk header" />
 </div>
 
 <br />
@@ -57,5 +57,5 @@ A metáfora agrícola vive no nosso nome, mas a nossa engenharia e contratos sã
 </div>
 
 <div align="center">
-  <img src="./assets/cyber-footer.svg" width="100%" alt="Sementia cyberpunk footer" />
+  <img src="https://raw.githubusercontent.com/sementia/.github/main/profile/assets/cyber-footer.svg" width="100%" alt="Sementia cyberpunk footer" />
 </div>
