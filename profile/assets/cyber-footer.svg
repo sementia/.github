@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="88" viewBox="0 0 1100 88">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05060d"/>
+      <stop offset="50%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0c1018"/>
+    </linearGradient>
+        <linearGradient id="neonSoft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39ff14"/>
+      <stop offset="25%" stop-color="#2bff4d"/>
+      <stop offset="50%" stop-color="#18ff7a"/>
+      <stop offset="75%" stop-color="#0aff94"/>
+      <stop offset="100%" stop-color="#00ffa3"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39ff14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39ff14"/>
+      <stop offset="100%" stop-color="#39ff14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="labelDepth" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.8" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <style>
+    .lbl { font-family: Consolas, 'Courier New', monospace; font-size: 13px; letter-spacing: 2.5px; filter: url(#labelDepth); }
+    .main { fill: url(#neonSoft); }
+    .acc { fill: #00ffa3; }
+    .lblL { text-anchor: start; }
+    .lblR { text-anchor: end; }
+    .dash { animation: dash 3s linear infinite; }
+    .blink { animation: blink 1.4s step-end infinite; }
+    @keyframes dash { to { stroke-dashoffset: -240; } }
+    @keyframes blink { 50% { opacity: 0.25; } }
+  </style>
+  <rect width="1100" height="88" fill="url(#fbg)"/>
+  <path d="M48 44 H1052" stroke="url(#fline)" stroke-width="1.75" filter="url(#glow)"/>
+  <path class="dash" d="M48 44 H1052" stroke="#39ff14" stroke-width="1.1" stroke-dasharray="10 12" opacity="0.55" filter="url(#glow)"/>
+  <circle cx="64" cy="44" r="3.5" fill="#00ffa3" class="blink" filter="url(#glow)"/>
+  <text x="80" y="49" class="lbl lblL"><tspan class="main">SESSION_</tspan><tspan class="acc">ACTIVE_</tspan></text>
+  <text x="1020" y="49" class="lbl lblR main">EOF // KEEP_BUILDING_</text>
+</svg>

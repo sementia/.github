@@ -1,20 +1,18 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=250&section=header&text=Sementia&fontSize=70&desc=Semeando%20Tecnologia&descAlign=50&descAlignY=65&animation=fadeIn" alt="Sementia Header" />
+  <img src="./assets/cyber-header.svg" width="100%" alt="SEMENTIA — cyberpunk header" />
 </div>
 
-<p align="center">
-  <b>Multi-Tenant SaaS Engine • Digital Transformation • Automated Software House</b>
-</p>
+<br />
 
 <div align="center">
   <a href="https://github.com/sementia">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Sementia GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-05060d?style=for-the-badge&logo=github&logoColor=39ff14" alt="Sementia GitHub" />
   </a>
 </div>
 
 <br />
 
-## 🚀 O que fazemos
+## O que fazemos
 
 **O seu negócio rodando em sistema, e não em planilha e memória.**
 
@@ -59,5 +57,5 @@ A metáfora agrícola vive no nosso nome, mas a nossa engenharia e contratos sã
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=100&section=footer" alt="Footer" />
+  <img src="./assets/cyber-footer.svg" width="100%" alt="Sementia cyberpunk footer" />
 </div>
